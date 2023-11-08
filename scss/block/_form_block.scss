@@ -1,0 +1,103 @@
+// section {}
+
+.form_block {
+	padding-bottom: 60px;
+	background-color: rgba(232, 236, 255, 0.3);
+}
+
+.form_block_inner {
+	padding-top: 75px;
+	padding-bottom: 75px;
+	width: 487px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.form_block_title {
+	margin-bottom: 30px;
+}
+
+.sign {
+	color: #058AFF;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 31.25px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	margin-bottom: 15px;
+}
+
+.yours {
+	color: #000;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+}
+
+.form_send_block {
+	border-radius: 10px;
+	border: 1px solid rgba(5, 138, 255, 0.5);
+	padding: 15px 25px;
+	// display: flex;
+	// justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	justify-content: space-between;
+	position: relative;
+}
+
+form {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.form_send_block::after {
+	position: absolute;
+	content: "";
+	background-image: url(/images/form_block/mail_logo.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	width: 32px;
+	height: 26px;
+	left: 40px;
+	bottom: 31px;
+}
+
+input {
+	padding: 8px;
+	box-sizing: border-box;
+	border: none;
+	outline: none;
+	margin-left: 72px;
+	background: none;
+}
+
+input::placeholder {
+	color: #000;
+	font-family: Roboto;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+}
+
+.send {
+	box-sizing: border-box;
+	color: #FFF;
+	font-family: Roboto;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	border-radius: 10px;
+	background: #0082F4;
+	padding: 15px 29px;
+	outline: none;
+	border: none;
+}
